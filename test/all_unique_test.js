@@ -27,11 +27,11 @@ describe('all_unique', function() {
     assert.isFalse(all_unique("eligible"));
   });
 
-  it('should return true for "discuss"', function() {
+  it('should return false for "discuss"', function() {
     assert.isFalse(all_unique("discuss"));
   });
 
-  it('should return true for "abc"', function() {
-    assert.isFalse(all_unique("abc"));
+  it('should return false for "abcc"', function() {
+    assert.isFalse(all_unique("abcc"));
   });
 });
