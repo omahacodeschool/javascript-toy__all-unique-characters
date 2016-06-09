@@ -1,0 +1,7 @@
+
+myFunction(str){
+    var letters = (str);
+    var num = letters.indexOf(str);
+    var ultAns = (num == -1) ? true : false;
+    return ultAns
+}
